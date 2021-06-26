@@ -1,0 +1,16 @@
+@import "./reset";
+@import "./_settings/colors";
+@import "./_settings/fonts";
+@import "./_settings/mixin";
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: $font-base;
+    max-width: 1900px;
+    text-align: center;
+    color: $color-primary;
+}
